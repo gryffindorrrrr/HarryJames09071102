@@ -1,4 +1,4 @@
-### Chao xìnnn các cậu 👋
+### hi there👋
 
 <!--
 **HarryJames09071102/HarryJames09071102** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
