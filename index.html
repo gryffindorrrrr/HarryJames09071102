@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<!-- Chứa toàn bộ nội dung Web ở đây -->
+
+<head>
+    <!-- chứa các thẻ meta -->
+    <meta charset="UTF-8">
+    <title>WEB DESIGN COURSE</title>
+     
+    <style>
+            html {
+                font-size: 20px;
+            }
+            h1 {
+                font-size: 1rem;
+                font-weight: bold;
+            } 
+           
+            /* HÀM */
+            .box::after {
+                content: attr(title);
+                
+            }
+            /* a::after {
+                content: "("attr(href)")";
+            } */
+            /* HÀM */
+     </style>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+
+    <div class="box">
+        <h1 title="Attribute nèeeee :<3", id="first-heading", style="text-align: center; background: bisque;"">Xin chào Các bạn <3 </h1>
+        <div>
+                        <!--checkbox  -->
+            <input name="gender" type="radio">
+            <input name="gender" type="radio">
+            <input name="gender" type="radio">
+        </div>
+
+
+    <!-- Chứa nội dung Web -->
+    <p>Đây là một trang web newbie <a href="https://roadmap.sh/full-stack">RoadMap</a>, 
+       
+    </p>
+
+
+    <ul>
+        <h1 id="first-heading">CSS in HTML ?</h1>
+
+        <li class="second-part">Internal</li>
+        <li class="second-part">External 2</li>
+        <li class="second-part">Inline</li>
+
+    </ul>
+
+    <ol>
+        <li>Noi dung 1</li>
+        <li>Noi dung 2</li>
+    </ol>
+
+    <table>
+        <thead>
+            <th>STT</th>
+            <th>Họ và Tên</th>
+            <th>Địa chỉ</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Duc</td>
+                <td>HCM</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Tuan</td>
+                <td>Ha Noi</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+</body>
+
+</html>
